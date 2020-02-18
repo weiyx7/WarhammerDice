@@ -80,7 +80,9 @@ def reroll_dice():
 3+: %s
 4+: %s
 5+: %s
-6+: %s'''%(list_dice_amount[2],list_dice_amount[3],list_dice_amount[4],list_dice_amount[5],list_dice_amount[6]))
+6+: %s
+
+总和: %s'''%(list_dice_amount[2],list_dice_amount[3],list_dice_amount[4],list_dice_amount[5],list_dice_amount[6],sum(list_dice_result)))
 
 
 def amount_validity(content):
